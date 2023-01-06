@@ -24,7 +24,7 @@ resource "aws_subnet" "dev-subnet-1" {
   cidr_block = var.cidr_block[0]
   availability_zone = "us-east-1a"
   tags = {
-     Name: "development",
+     Name: "developments",
      vpc_env: "dev"
   }
   
